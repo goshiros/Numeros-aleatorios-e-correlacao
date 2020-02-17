@@ -1,9 +1,3 @@
-/* ************************************************************************** */
-/* Nome: Giovana Oshiro da Silva                                              */
-/* Numero USP: 8022103                                                        */
-/* Exercício-programa 3                                                       */
-/* ************************************************************************** */
-
 #include <stdio.h>
 #include <math.h>
 #define PI 3.141592
@@ -14,9 +8,9 @@
 São gerados n números aleatórios. Esses números são armazenados em um vetor e o
 último número aleatório gerado (antes de ser normalizado) é retornado para ser
 utilizado como a nova semente quando a função for chamada novamente.*/
-/*Os parâmetros utilizados foram a = 22695477 e b = 1, como no EP1, e m como 2^30,
-e não a 32, uma vez que 2^32 estoura o valor de int (e conforme nos foi recomen-
-dado a fazer o EP1).*/
+
+/*Os parâmetros utilizados foram a = 22695477 e b = 1 e m como 2^30, e não a 32,
+uma vez que 2^32 estoura o valor de int.*/
 
 int congLinear (int x, float v [MAX], int n){
   long int a = 22695477, m = 1073741824;
